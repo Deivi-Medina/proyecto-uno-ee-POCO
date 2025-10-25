@@ -1,0 +1,45 @@
+
+body {
+    background-color: #010203;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    height: 150px;
+}
+
+.letras {
+    color: white;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+    display: inline-block
+}   
+
+.Telefono {
+    right: 100px;
+    height: 734px;
+    border: 0px;
+}
+
+a {
+    color: gray;
+}
+
+a:hover {
+    color: rgb(255, 187, 0);
+}
+
+div {
+    background-color:  rgb(21, 21, 21);
+}
+
+.pie {
+    color: white;
+}
+
+.pie2 {
+    color: gray;
+}
