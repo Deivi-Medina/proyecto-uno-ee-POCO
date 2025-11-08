@@ -1,7 +1,25 @@
 
+@media (min-width: 768px) {
+  body {
+    font-size: 20px;
+  }
+}
+
 
 body {
+    font-size: 11px;
     background-color: #010203;
+    font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.stack-sans-text {
+  font-family: "Stack Sans Text", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 header {
@@ -13,7 +31,9 @@ header {
     display: flex;
     right:100px;
     background-color: #161718;
-    padding: 0 385px;
+    padding: 0 100px;
+    border: solid red 10px;
+    font-size: 13px;
 }
 
 .letras { /* letras del encabezado */
@@ -25,7 +45,7 @@ header {
 .lista-telefono {
     list-style: none;
     padding: 0 200px;
-    padding: 20px;
+    padding: 10px;
     display: inline-block;
 }   
 
@@ -40,6 +60,7 @@ ul {
 }
 
 a {
+    text-decoration: none;
     font-style: none ;
     color: gray;
 }
@@ -93,18 +114,29 @@ div {
     display: inline-block;
 }
 
+.pocoimagen{
+    position:absolute;
+    height: 31px;
+    top: 170px;
+    left: 1025px;
+    margin-top: 20px
+}
+
 .titulo-encima {
+    font-size: 30px;
     position: absolute;
-    top: -300px;
-    left: 470px;
+    top: 140px;
+    left: 970px;
+    margin-top: 100px
 }
 
 .texto-encima {
+    font-size: 20px;
     position: absolute;
-    top: 50%;
-    left: 500px;
-    transform: translate(-50%, -50%);
-    display: inline-block;
+    line-height: 25px;
+    top: 38%;
+    left: 786px;
+    text-align: right;
 }
 
 .img-espec {
@@ -172,4 +204,20 @@ div {
     color: rgb(81, 78, 78);
     top: 250px;
     left: 350px;
+}
+
+.especificaciones {
+    display: flex;
+    flex-direction: row;
+}
+.hardware1 {
+    margin-top: 15px;
+    padding: 0 200px;
+    height: 300px;
+    margin-left: 0px;
+}
+
+.hardware2 {
+    display: flex;
+    margin-right: 100px; 
 }
