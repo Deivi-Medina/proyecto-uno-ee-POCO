@@ -75,10 +75,6 @@ a:hover {
     color: rgb(255, 187, 0);
 }
 
-div {
-    background-color:  rgb(21, 21, 21);
-}
-
 .pie {
     color: white;
 }
@@ -214,21 +210,6 @@ div {
     left: 350px;
 }
 
-.especificaciones {
-    display: flex;
-    flex-direction: row;
-}
-.hardware1 {
-    margin-top: 15px;
-    padding: 0 200px;
-    height: 300px;
-    margin-left: 0px;
-}
-
-.hardware2 {
-    display: flex;
-    margin-right: 100px; 
-}
 
 .contenedor_footer {
     display: flex;
@@ -240,4 +221,74 @@ div {
     padding-bottom: 10px;
     height: 40px;
 
+}
+
+.procesador{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.camara{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.water-resistance {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hardware {
+    height: 100px;
+    width: 100px;   
+}
+
+.hardware-pantalla {
+    height: 100px;
+    width: 200px;
+}
+
+.especificaciones {
+    padding: 80px 300px;
+}
+
+.big-container{
+    display: flex;
+    justify-content: center;
+}
+
+.right-container{
+    display: block;
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: center;
+}
+
+.hardware-equis{
+    width: 100%;
+}
+
+.camara {
+    margin-right: 12px;
+}
+
+.pantalla {
+    margin-bottom: 6px;
+    width: 500px;
+}
+
+.water {
+    margin-top: 6px;
+    height: 400px;
+    width: 250px;
+}
+
+.battery {
+    margin-top: 6px;
+    margin-left: 10px;
+    height: 400px;
+    width: 240px;
 }
